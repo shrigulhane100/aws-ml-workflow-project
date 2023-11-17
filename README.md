@@ -77,15 +77,15 @@ This project is an end-to-end machine learning (ML) workflow developed for Scone
 
 #### 2.1. Execution Flow of the Step Function 
 
-![Execution-Flow-of-The-Step-Function.PNG](Screenshot-of-Step-Function/Execution-Flow-of-The-Step-Function.PNG)
+![Execution-Flow-of-The-Step-Function.PNG](screenshot/Execution-Flow-of-The-Step-Function.PNG)
 
 #### 2.2. Step Function Graph
 
-![Step Functions Graph](Screenshot-of-Step-Function/step-function-graph.PNG)
+![Step Functions Graph](screenshot/step-function-graph.PNG)
 
 #### 2.3. Step Function Output
 
-![Step Function Output](Screenshot-of-Step-Function/Step-Function-Workflow-Working-Output-Example-1.PNG)
+![Step Function Output](screenshot/Step-Function-Workflow-Working-Output-Example-1.PNG)
 
 
 
@@ -98,9 +98,8 @@ This project is an end-to-end machine learning (ML) workflow developed for Scone
 ### Project Structure
 
 ```
-scones-unlimited-ml-workflow/
+aws-ml-workflow-project/
 │
-├── data/              # Data directory (store bakery data here)
 ├── notebooks/         # Jupyter notebooks for data processing and model development
 ├── src/               # Custom Python scripts and utilities
 ├── requirements.txt   # Python package dependencies
