@@ -67,6 +67,9 @@ This project is an end-to-end machine learning (ML) workflow developed for Scone
    - Refer to SageMaker documentation for detailed instructions.
 
 
+
+## Project Flow
+
 ### 1. Individual AWS Lambda functions drafted to build an AWS Step Functions Workflow:<br>
 
 1. The `serializeImageData` Lambda Function takes the address of an image hosted in S3, and returns a serialized JSON object.<br>
