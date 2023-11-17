@@ -66,6 +66,29 @@ This project is an end-to-end machine learning (ML) workflow developed for Scone
    - Utilize SageMaker to train and deploy models.
    - Refer to SageMaker documentation for detailed instructions.
 
+
+### 3.1. Individual AWS Lambda functions drafted to build an AWS Step Functions Workflow:<br>
+
+1. The `serializeImageData` Lambda Function takes the address of an image hosted in S3, and returns a serialized JSON object.<br>
+2. The `Image-Classification` Lambda Function accepts the JSON object obtained from step 1 and sends it to an endpoint, collecting inferences as a JSON object.<br>
+3. The `Filter Low Confidence Inferences` Lambda Function takes the inference data from step 2, and filters only the images that meet the pre-defined threshold.<br>
+
+### 3.2. Building a State Machine via AWS Step Functions
+
+#### 3.2.1. Execution Flow of the Step Function 
+
+![Execution-Flow-of-The-Step-Function.PNG](Screenshot-of-Step-Function/Execution-Flow-of-The-Step-Function.PNG)
+
+#### 3.2.2. Step Function Graph
+
+![Step Functions Graph](Screenshot-of-Step-Function/step-function-graph.PNG)
+
+#### 3.2.3. Step Function Output
+
+![Step Function Output](Screenshot-of-Step-Function/Step-Function-Workflow-Working-Output-Example-1.PNG)
+
+
+
 ### Usage
 
 - The project includes Jupyter notebooks to guide you through data preprocessing and model development.
