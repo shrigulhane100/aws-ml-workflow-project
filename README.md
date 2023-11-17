@@ -1,5 +1,5 @@
-# aws-ml-workflow-project
-Build a ML Workflow for Scones Unlimited on Amazon SageMaker
+# Build a ML Workflow for Scones Unlimited on Amazon SageMaker
+Build and deploy an image classification model (End to End ML Workflow) for Scones Unlimited, a scone-delivery-focused logistic company, using AWS SageMaker.
 
 
  Image Classifiers are used in the field of computer vision to identify the content of an image and it is used across a broad variety of industries, from advanced technologies like autonomous vehicles and augmented reality, to eCommerce platforms, and even in diagnostic medicine.
